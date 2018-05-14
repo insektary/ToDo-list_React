@@ -36,7 +36,37 @@ body {
     outline: none;
 }
 
+.header__check-button {
+    color: #dbdbdb;
+}
+
+.header__check-button--done {
+    flex-basis: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: inherit;
+    border: 1px solid #dbdbdb;
+    border-radius: 50%;
+    margin: 1rem;
+    outline: none;
+}
+
 .item__check-button {
+    color: green;
+    padding-top: 2.6rem;
+    overflow: hidden;
+}
+
+.item__check-button--done {
+    flex-basis: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: inherit;
+    border: 1px solid #dbdbdb;
+    border-radius: 50%;
+    margin: 1rem;
+    outline: none;
+    content: none;
     color: green;
 }
 
@@ -57,6 +87,16 @@ body {
     padding: 0 1rem 0 1rem;
     outline: none;
     border: none;
+}
+
+.item__todo-title--done {
+    flex-grow: 1;
+    font-size: 2rem;
+    color: #dbdbdb;
+    padding: 0 1rem 0 1rem;
+    outline: none;
+    border: none;
+    text-decoration: line-through;
 }
 
 .footer {
